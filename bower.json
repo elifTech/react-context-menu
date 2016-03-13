@@ -1,0 +1,23 @@
+{
+  "name": "contextmenu-react-bootstrap",
+  "description": "Nice, easy to use component, made with React and Twitter Bootstrap",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "context-menu",
+    "react",
+    "react-component",
+    "bootstrap",
+    "javascript"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": ">= 3.0.0",
+    "react": "~0.13.1"
+  }
+}

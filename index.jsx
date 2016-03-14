@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 
 class ContextMenu extends React.Component {
 
@@ -187,30 +187,4 @@ class MenuItems extends React.Component {
     }
 }
 
-//export default ContextMenu
-
-//Test example
-let data = {
-    selector: 'context-menu',
-    className: 'well',
-    callback: function(e) {
-        e.preventDefault();
-        console.log(e.target.textContent);
-        alert("Clicked on " + e.target.textContent);
-    },
-    items: [
-        {name: "Edit", icon: "edit"},
-        {name: "Cut", icon: "cut"},
-        {name: "Copy", icon: "copy"},
-        {name: "Paste", icon: "paste"},
-        {name: "Delete", icon: "delete"},
-        {name: "", icon: ""},
-        {name: "Quit", icon: "quit"}
-    ]
-};
-
-
-React.render(
-    <ContextMenu options={data} />,
-    document.getElementById(data.selector)
-);
+export default ContextMenu

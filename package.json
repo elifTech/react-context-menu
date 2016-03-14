@@ -1,5 +1,5 @@
 {
-  "name": "contextmenu-react-bootstrap",
+  "name": "react-context-menu",
   "version": "0.0.1",
   "description": "Nice, easy to use component, made with React and Twitter Bootstrap",
   "main": "index.js",

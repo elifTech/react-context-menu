@@ -1,1 +1,6 @@
-.idea
+/.idea
+*.log
+*.pid
+*.seed
+node_modules
+bower_components
